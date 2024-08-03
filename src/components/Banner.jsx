@@ -19,7 +19,7 @@ export const Banner = () => {
     }, [])
 
     return (
-        <Box className="banner-container" sx={{position: 'relative'}}>
+        <Box component="figure" className="banner-container" sx={{position: 'relative'}}>
             <img className="banner" src="/images/banner3.jpg" alt="banner"/>
             <Box sx={{
                 position: 'absolute',
