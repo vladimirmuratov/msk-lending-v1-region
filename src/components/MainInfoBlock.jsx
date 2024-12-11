@@ -1,128 +1,57 @@
-import {Box, Typography} from '@mui/material'
-import CheckIcon from '@mui/icons-material/Check'
+import { Box, Typography } from '@mui/material';
+import CheckIcon from '@mui/icons-material/Check';
 
 export const MainInfoBlock = () => {
     return (
         <Box
             component="section"
             sx={{
-                scrollMarginTop: {xs: '120px', sm: '50px'},
+                scrollMarginTop: { xs: '120px', sm: '50px' },
                 paddingX: '12px',
-                paddingY: {xs: '25px', sm: '50px'},
+                paddingY: { xs: '25px', sm: '50px' },
                 color: 'var(--black)'
             }}
         >
 
-            <Typography variant="h4" sx={{marginBottom: '20px', fontSize: {xs: '28px', sm: '34px'}, fontWeight: 500}}>
-                Ваше здоровье – наша забота: госпитализация в московскую больницу из регионов
+            <Typography variant="h2" sx={{
+                color: 'var(--main-color)',
+                marginBottom: '20px',
+                fontSize: { xs: '28px', sm: '34px' },
+                fontWeight: 500
+            }}>
+                Ваше здоровье – наша забота: госпитализация в московскую клинику из регионов
             </Typography>
 
-            <Typography component="p" sx={{fontSize: 20, marginBottom: '20px'}}>
-                Мы рады приветствовать вас в <Box component="span" sx={{fontWeight: 600}}>МСК-Групп</Box>, где ваше
-                здоровье и комфорт находятся в центре
-                внимания. Наша компания предоставляет высококачественное медицинское обслуживание не только жителям
-                столицы, но и пациентам из регионов России и СНГ. Мы делаем все возможное, чтобы ваша госпитализация
-                прошла максимально удобно и безопасно.
+            <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 }, marginBottom: '20px' }}>
+                В <Box component="span" sx={{ color: 'var(--main-color)', fontWeight: 600 }}>МСК-Групп</Box> с радостью
+                открываем двери для каждого клиента – здесь здоровье и благополучие занимают
+                центральное место! Занимаясь качественным медицинским сервисом, мы охватываем не только Москву, но также
+                распространяем своё присутствие по всей России и странам СНГ. Наша цель — обеспечить госпитализацию на
+                пике комфорта и безопасности для каждого обратившегося к нам пациента.
             </Typography>
 
-            <Typography component="p" sx={{fontSize: 20, marginBottom: '20px'}}>
-                <Box component="span" sx={{fontWeight: 600}}>МСК-Групп</Box> организует госпитализацию и транспортировку
-                из регионов и стран СНГ в клинику необходимого профиля.
-                Организация встречи и помощь иногородним пациентам бригадой Скорой Помощи на вокзале или в аэропорту.
+            <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 }, marginBottom: '20px' }}>
+                <Box component="span" sx={{ color: 'var(--main-color)', fontWeight: 600 }}>МСК-Групп</Box> осуществляет
+                комплексное сопровождение госпитализации, включая транспортировку из разных
+                уголков России и стран СНГ прямо до специализированных клиник. Мы обеспечиваем не только встречу
+                иногородних пациентов на вокзалах или в аэропорту, но также предоставляем оперативную помощь с участием
+                бригад скорой медицинской помощи.
             </Typography>
 
-            <Typography component="p" sx={{fontSize: 20, marginBottom: '20px'}}>
-                Частная служба скорой помощи <Box component="span" sx={{fontWeight: 600}}>МСК-Групп</Box> помогает
-                транспортировать маломобильного пациента как в пределах одного города или области, так и по всей территории нашей огромной
-                страны. Мы придем на помощь, если вам экстренно нужно госпитализировать родственника в удаленную клинику
-                или требуется отправить близкого человека на плановое лечение в столичный медицинский центр.
-                <br/>
-                <Box component="span" sx={{fontWeight: 600}}>Круглосуточно. Оперативно. Доступно</Box>
+            <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 }, marginBottom: '20px' }}>
+                <Box component="span" sx={{ color: 'var(--main-color)', fontWeight: 600 }}>МСК-Групп</Box> — ваш
+                надежный партнер для оказания скорой помощи и транспортировки маломобильных пациентов
+                как внутри одного города, так и по всей России. Быстрое реагирование в экстренных случаях или
+                организация планового переезда к лучшим медицинским центрам столицы — наш приоритет!
             </Typography>
 
-            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
-                <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Высококвалифицированные
-                        специалисты</Typography>
-                </Box>
-                <Typography component="p" sx={{fontSize: 20}}>
-                    Наш медицинский персонал – это опытные врачи, медсестры и другие профессионалы, которые регулярно
-                    проходят обучение и повышение квалификации. Мы обеспечиваем вам доступ к лучшим медицинским кадрам
-                    страны.
-                </Typography>
-            </Box>
-            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
-                <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Современное оборудование</Typography>
-                </Box>
-                <Typography component="p" sx={{fontSize: 20}}>
-                    Мы используем новейшие медицинские технологии и оборудование, соответствующее мировым стандартам.
-                    Это позволяет нам проводить точные диагностику и лечение, обеспечивая наилучшие результаты для наших
-                    пациентов.
-                </Typography>
-            </Box>
-            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
-                <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Индивидуальный подход</Typography>
-                </Box>
-                <Typography component="p" sx={{fontSize: 20}}>
-                    Каждый пациент уникален, и мы разрабатываем персонализированные планы лечения, ориентированные на
-                    ваши конкретные потребности и состояние здоровья. Ваше здоровье – наш главный приоритет.
-                </Typography>
-            </Box>
-            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
-                <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Комфортные условия
-                        пребывания</Typography>
-                </Box>
-                <Typography component="p" sx={{fontSize: 20}}>
-                    Мы предлагаем уютные и удобные палаты, оборудованные всем необходимым для вашего комфорта. Мы
-                    создаем условия, способствующие быстрому восстановлению и вашему благополучию.
-                </Typography>
-            </Box>
-            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
-                <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Комплексный уход</Typography>
-                </Box>
-                <Typography component="p" sx={{fontSize: 20}}>
-                    От момента госпитализации до выписки мы обеспечиваем полный цикл медицинской помощи, включая
-                    реабилитацию и последующее наблюдение. Вы всегда можете рассчитывать на нашу поддержку.
-                </Typography>
-            </Box>
-            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
-                <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Поддержка в организации
-                        госпитализации</Typography>
-                </Box>
-                <Typography component="p" sx={{fontSize: 20}}>
-                    Мы помогаем вам организовать госпитализацию из любого региона России и СНГ, включая консультации,
-                    транспортировку и сопровождение. Наша цель – сделать ваш путь к здоровью как можно более гладким и
-                    беспрепятственным.
-                </Typography>
-            </Box>
-            <Box component="article" sx={{display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '20px'}}>
-                <Box sx={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-                    <CheckIcon sx={{color: 'var(--main-color)'}}/>
-                    <Typography component="p" sx={{fontSize: 20, fontWeight: 500}}>Финансовая прозрачность</Typography>
-                </Box>
-                <Typography component="p" sx={{fontSize: 20}}>
-                    Мы предлагаем прозрачную систему оплаты и возможность получения консультаций по финансовым вопросам,
-                    чтобы вы могли планировать свои расходы на лечение.
-                </Typography>
-            </Box>
-
-            <Typography component="p" sx={{fontSize: 20}}>
-                Выберите <Box component="span" sx={{fontWeight: 600}}>МСК-Групп</Box> для вашего здоровья и долголетия.
-                Доверьте ваше здоровье профессионалам,
-                которые готовы заботиться о вас круглосуточно. Мы – ваш надежный партнер в борьбе за здоровье и качество
-                жизни, независимо от того, где вы находитесь.
+            <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 } }}>
+                Выбирая <Box component="span" sx={{ color: 'var(--main-color)', fontWeight: 600 }}>МСК-Групп</Box> для
+                сохранения здоровья и продления активного долголетия, вы делаете ставку на
+                непрерывную заботу профессионалов медицинского сообщества. Мы – ваш верный спутник в поддержании
+                хорошего самочувствия 24/7, где бы вы ни находились! Доверьтесь нам — мы гарантируем качество жизни и
+                надежность на каждом этапе лечения.
             </Typography>
         </Box>
-    )
-}
+    );
+};

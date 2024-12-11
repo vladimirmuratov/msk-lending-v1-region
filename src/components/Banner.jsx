@@ -26,7 +26,9 @@ export const Banner = () => {
             component="figure"
             sx={{
                 position: 'relative',
-                marginTop: isMobile ? {xs: '110px', sm: '95px'} : 0,
+                // marginTop: isMobile ? {xs: '110px', sm: '95px'} : 0,
+                marginTop: isMobile ? { xs: '110px', sm: 0 } : 0,
+                paddingBottom: isMobile ? { xs: '25px', sm: 0 } : 0
             }}
         >
             <Box
@@ -47,12 +49,12 @@ export const Banner = () => {
                     padding: '20px'
                 }}>
                     <Typography
-                        variant="h4"
+                        variant="h1"
                         sx={{
+                            color: 'var(--main-color)',
                             fontSize: {xs: 22, sm: 40, md: 62},
                             lineHeight: 1,
                             fontWeight: 600,
-                            color: 'var(--black)',
                             textShadow: '0px 4px 4px lightgray',
                             marginBottom: {xs: '5px', sm: '10px'}
                         }}>
@@ -71,7 +73,7 @@ export const Banner = () => {
                                 onClick={() => router.push(`tel:${phoneNumber}`)}
                                 variant="contained"
                                 color="error"
-                                size="large"
+                                size="small"
                                 sx={{
                                     display: isMobile ? 'block' : 'none'
                                 }}
