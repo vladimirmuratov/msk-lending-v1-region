@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://region.mskdoctor.ru/sitemap.xml
