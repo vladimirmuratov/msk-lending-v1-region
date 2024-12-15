@@ -25,6 +25,9 @@ export const metadata = {
     other: {
         ['yandex-verification']: '04067e503a181476',
     },
+    alternates: {
+        canonical: 'https://region.mskdoctor.ru/'
+    }
 };
 
 export default function Home() {
