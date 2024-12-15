@@ -18,18 +18,6 @@ import { OurServicesBlock } from '@/components/OurServicesBlock';
 import { Suspense } from 'react';
 import { Metrika } from '@/components/Metrika';
 
-export const metadata = {
-    title: 'Платная госпитализация из регионов. Звоните: +7 (499) 719-81-00, 24/7',
-    description: 'Организация платной госпитализации из регионов. Оперативно и удобно. Звоните: +7 (499) 719-81-00, мы работаем 24/7.',
-    keywords: ['платная госпитализация из регионов'],
-    other: {
-        ['yandex-verification']: '04067e503a181476',
-    },
-    alternates: {
-        canonical: 'https://region.mskdoctor.ru/'
-    }
-};
-
 export default function Home() {
     return (
         <>
