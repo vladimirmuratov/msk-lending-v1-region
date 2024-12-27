@@ -17,9 +17,6 @@ export const metadata = {
     keywords: ['платная госпитализация из регионов'],
     other: {
         ['yandex-verification']: '04067e503a181476',
-    },
-    alternates: {
-        canonical: 'https://region.mskdoctor.ru/'
     }
 };
 
