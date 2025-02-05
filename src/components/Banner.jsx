@@ -38,11 +38,11 @@ export const Banner = () => {
                         xs: 'calc(var(--index) * 23)',
                         sm: 'calc(var(--index) * 23)',
                         md: 'calc(var(--index) * 23)',
-                        lg: 'calc(var(--index) * 20)'
+                        lg: 'calc(var(--index) * 23)'
                     },
-                    backgroundImage: `url(/images/images-for-landings/8.webp)`,
-                    backgroundSize: {xs: 'cover', sm: 'cover', md: 'unset', lg: 'unset'},
-                    backgroundPosition: {xs: 'center -1%', sm: 'center 10%', md: 'center 10%', lg: 'center 10%'},
+                    backgroundImage: `url(/images/images-for-landings/9.webp)`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover'
                 }}
             >
                 <Box sx={{
@@ -57,8 +57,9 @@ export const Banner = () => {
                             fontSize: {xs: 22, sm: 40, md: 62},
                             lineHeight: 1,
                             fontWeight: 600,
-                            textShadow: '0px 4px 4px lightgray',
-                            marginBottom: {xs: '5px', sm: '10px'}
+                            textShadow: '2px 2px 2px white',
+                            marginBottom: {xs: '5px', sm: '10px'},
+                            textTransform: 'uppercase'
                         }}>
                         Платная<br/>
                         госпитализация из<br/>
