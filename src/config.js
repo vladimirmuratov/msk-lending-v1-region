@@ -25,7 +25,7 @@ export const links = [
 export const cardsBlock = [
     {id: 1, label: 'Информация для пациентов', icon: '/images/icons/info.svg', path: '#whyWe', bgcolor: '#27DCE1'},
     {id: 2, label: 'Направления лечения', icon: '/images/icons/health.svg', path: '#directions', bgcolor: '#FF0044'},
-    {id: 3, label: 'Больницы', icon: '/images/icons/hospital.svg', path: '#partners', bgcolor: '#5000CD'},
+    {id: 3, label: 'Клиники', icon: '/images/icons/hospital.svg', path: '#partners', bgcolor: '#5000CD'},
     {id: 4, label: 'Частые вопросы', icon: '/images/icons/faq.svg', path: '#faq', bgcolor: '#FFF14B'},
 ]
 
@@ -271,4 +271,4 @@ export const partners = [
     },
 ]
 
-export const text1 = 'От выбора оптимальной клиники, профессионального медика и точного диагноза порой действительно зависит человеческая жизнь. Для МСК-Групп поддержание здоровья пациентов – это не просто профессия, а миссия жизни!'
+export const text1 = 'Выбор клиники, врача и точного диагноза напрямую влияет на жизнь пациента.\nВ МСК забота о здоровье – это миссия, а не просто работа.'

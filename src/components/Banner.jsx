@@ -47,7 +47,9 @@ export const Banner = () => {
             >
                 <Box sx={{
                     position: 'absolute',
-                    top: {xs: '10%', sm: '10%'},
+                    // top: {xs: '10%', sm: '10%'},
+                    top: '50%',
+                    transform: 'translateY(-50%)',
                     left: '5%',
                 }}>
                     <Typography
@@ -59,11 +61,9 @@ export const Banner = () => {
                             fontWeight: 600,
                             textShadow: '2px 2px 2px white',
                             marginBottom: {xs: '5px', sm: '10px'},
-                            textTransform: 'uppercase'
+                            textTransform: 'uppercase',
                         }}>
-                        Платная<br/>
-                        госпитализация из<br/>
-                        регионов
+                        госпитализация<br/>из регионов
                     </Typography>
 
                     {isMobile
@@ -73,6 +73,7 @@ export const Banner = () => {
                             }}
                         >
                             <Button
+                                className="animation-btn"
                                 onClick={() => router.push(`tel:${phoneNumber}`)}
                                 variant="contained"
                                 color="error"

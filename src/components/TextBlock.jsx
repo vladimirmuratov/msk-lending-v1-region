@@ -10,7 +10,7 @@ export const TextBlock = ({text}) => {
                 paddingX: '12px',
                 paddingY: '32px'
             }}>
-            <Typography sx={{fontSize: '22px', color: '#fff', whiteSpace: 'pre-wrap'}}>{text}</Typography>
+            <Typography sx={{fontSize: '22px', color: '#fff', whiteSpace: 'pre-wrap', textAlign: 'center'}}>{text}</Typography>
         </Box>
     )
 }

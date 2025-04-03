@@ -30,15 +30,15 @@ export const WhyWeBlock = () => {
                     gap: '10px',
                     marginBottom: { xs: '5px', sm: '10px' }
                 }}>
-                    <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                    <CheckIcon sx={{ color: 'var(--red)' }} />
                     <Typography variant="h3"
-                                sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
+                                sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
                         Широкая сеть партнеров
                     </Typography>
                 </Box>
                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                    <Typography variant="h4" sx={{ fontSize: { xs: 18, sm: 20 } }}>Мы сотрудничаем с ведущими
-                        медицинскими центрами Москвы, включая многопрофильные и специализированные клиники.</Typography>
+                    <Typography variant="h4" sx={{ fontSize: { xs: 18, sm: 20 } }}>Сотрудничаем с ведущими клиниками
+                        Москвы, включая многопрофильные и специализированные центры.</Typography>
                 </Box>
             </Box>
 
@@ -49,15 +49,15 @@ export const WhyWeBlock = () => {
                     gap: '10px',
                     marginBottom: { xs: '5px', sm: '10px' }
                 }}>
-                    <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                    <CheckIcon sx={{ color: 'var(--red)' }} />
                     <Typography variant="h3"
-                                sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
+                                sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
                         Индивидуальный подход
                     </Typography>
                 </Box>
                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                    <Typography variant="h4" sx={{ fontSize: { xs: 18, sm: 20 } }}>Мы детально изучаем потребности
-                        каждого пациента и предлагаем оптимальные решения.</Typography>
+                    <Typography variant="h4" sx={{ fontSize: { xs: 18, sm: 20 } }}>Анализируем потребности пациента и
+                        подбираем оптимальные решения.</Typography>
                 </Box>
             </Box>
 
@@ -68,15 +68,15 @@ export const WhyWeBlock = () => {
                     gap: '10px',
                     marginBottom: { xs: '5px', sm: '10px' }
                 }}>
-                    <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                    <CheckIcon sx={{ color: 'var(--red)' }} />
                     <Typography variant="h3"
-                                sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
+                                sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
                         Прозрачность и оперативность
                     </Typography>
                 </Box>
                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                    <Typography variant="h4" sx={{ fontSize: { xs: 18, sm: 20 } }}>Мы работаем быстро, четко и открыто,
-                        предоставляя всю необходимую информацию о стоимости и процессе лечения.</Typography>
+                    <Typography variant="h4" sx={{ fontSize: { xs: 18, sm: 20 } }}>Работаем быстро и открыто,
+                        предоставляя полную информацию о стоимости и процессе лечения.</Typography>
                 </Box>
             </Box>
 
@@ -87,9 +87,9 @@ export const WhyWeBlock = () => {
                     gap: '10px',
                     marginBottom: { xs: '5px', sm: '10px' }
                 }}>
-                    <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                    <CheckIcon sx={{ color: 'var(--red)' }} />
                     <Typography variant="h3"
-                                sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
+                                sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
                         Квалифицированная команда
                     </Typography>
                 </Box>
@@ -106,11 +106,10 @@ export const WhyWeBlock = () => {
                     marginTop: '25px'
                 }}
             >
-                Мы понимаем, что каждый случай уникален, и забота о здоровье требует максимального внимания и
-                профессионализма. Наша задача — создать комфортные условия, чтобы пациенты могли сосредоточиться на
-                главном — восстановлении здоровья.
+                Каждый случай уникален, и здоровье требует внимания и профессионализма. Мы создаем комфортные условия,
+                чтобы пациенты могли сосредоточиться на выздоровлении.
                 <br />
-                С нами качественная медицинская помощь в Москве становится ближе!
+                С нами качественная медицинская помощь в Москве доступна каждому!
             </Typography>
 
         </Box>

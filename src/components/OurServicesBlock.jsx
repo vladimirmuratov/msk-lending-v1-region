@@ -32,9 +32,9 @@ export const OurServicesBlock = () => {
                     gap: '10px',
                     marginBottom: { xs: '5px', sm: '10px' }
                 }}>
-                    <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                    <CheckIcon sx={{ color: 'var(--red)' }} />
                     <Typography variant="h3"
-                                sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
+                                sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
                         Организация госпитализации
                     </Typography>
                 </Box>
@@ -55,9 +55,9 @@ export const OurServicesBlock = () => {
                     gap: '10px',
                     marginBottom: { xs: '5px', sm: '10px' }
                 }}>
-                    <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                    <CheckIcon sx={{ color: 'var(--red)' }} />
                     <Typography variant="h3"
-                                sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
+                                sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
                         Транспортировка пациента
                     </Typography>
                 </Box>
@@ -74,9 +74,9 @@ export const OurServicesBlock = () => {
                     gap: '10px',
                     marginBottom: { xs: '5px', sm: '10px' }
                 }}>
-                    <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                    <CheckIcon sx={{ color: 'var(--red)' }} />
                     <Typography variant="h3"
-                                sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
+                                sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
                         Поддержка на всех этапах
                     </Typography>
                 </Box>
@@ -94,9 +94,9 @@ export const OurServicesBlock = () => {
                     gap: '10px',
                     marginBottom: { xs: '5px', sm: '10px' }
                 }}>
-                    <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                    <CheckIcon sx={{ color: 'var(--red)' }} />
                     <Typography variant="h3"
-                                sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
+                                sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>
                         Послеоперационная и реабилитационная поддержка
                     </Typography>
                 </Box>
