@@ -30,7 +30,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html lang="en" prefix="og: https://ogp.me/ns#">
         <body className={montserrat.className}>
         <AppRouterCacheProvider>
             <ThemeProvider theme={theme}>
