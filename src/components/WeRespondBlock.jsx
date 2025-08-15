@@ -20,24 +20,24 @@ export const WeRespondBlock = () => {
             </Typography>
 
             <Box sx={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
-                <CheckIcon sx={{color: 'var(--main-color)'}}/>
+                <CheckIcon sx={{color: 'var(--red)'}}/>
                 <Typography variant='h3' sx={{fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Оптимальный выбор клиники</Typography>
             </Box>
             <Box sx={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
-                <CheckIcon sx={{color: 'var(--main-color)'}}/>
+                <CheckIcon sx={{color: 'var(--red)'}}/>
                 <Typography variant='h3' sx={{fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Экспертный контроль качества и стоимости
                     лечения</Typography>
             </Box>
             <Box sx={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
-                <CheckIcon sx={{color: 'var(--main-color)'}}/>
+                <CheckIcon sx={{color: 'var(--red)'}}/>
                 <Typography variant='h3' sx={{fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Врачебное сопровождение</Typography>
             </Box>
             <Box sx={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
-                <CheckIcon sx={{color: 'var(--main-color)'}}/>
+                <CheckIcon sx={{color: 'var(--red)'}}/>
                 <Typography variant='h3' sx={{fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Комплексный подход</Typography>
             </Box>
             <Box sx={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
-                <CheckIcon sx={{color: 'var(--main-color)'}}/>
+                <CheckIcon sx={{color: 'var(--red)'}}/>
                 <Typography variant='h3' sx={{fontSize: { xs: 18, sm: 20 }, fontWeight: 500}}>Юридическую поддержку</Typography>
             </Box>
         </Box>
