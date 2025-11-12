@@ -55,9 +55,9 @@ export const MobileHeader = ({toggleDrawer, isMobile}) => {
                     </Link>
                 </Box>*/}
 
-                <IconButton onClick={toggleDrawer(true)}>
+                {/*<IconButton onClick={toggleDrawer(true)}>
                     <MenuIcon sx={{color: '#fff'}}/>
-                </IconButton>
+                </IconButton>*/}
             </Box>
         </Box>
     )

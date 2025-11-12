@@ -34,7 +34,7 @@ export const ContactsBlock = () => {
                     </Box>
                     <Box sx={{ display: 'flex', gap: '10px' }}>
                         <LocalPhoneOutlinedIcon sx={{ color: 'var(--red)' }} />
-                        <Box sx={{display: 'flex', flexDirection: 'column', gap: '5px' }}>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
                             <Link href={`tel:${phoneNumber}`}
                                   sx={{ fontSize: { xs: '14px', sm: '16px' } }}>{phoneNumber}</Link>
                             <Link href={`tel:${phoneNumber2}`}
@@ -50,9 +50,10 @@ export const ContactsBlock = () => {
                         <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ИНН: 9725116009</Typography>
                         <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>КПП: 772501001</Typography>
                         <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ОГРН: 1237700147343</Typography>
-                    </Box>
 
-                    <SocialBlock className="banner-social-mobile" />
+                        <SocialBlock className="banner-social-mobile" />
+
+                    </Box>
 
                 </Box>
                 <Box>
