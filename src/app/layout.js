@@ -12,7 +12,7 @@ import './globals.css';
 const montserrat = Montserrat({ subsets: ['latin', 'cyrillic'] });
 
 export const metadata = {
-    metadataBase: new URL('https://region.mskdoctor.ru'),
+    metadataBase: new URL('https://msk-region.vercel.app'),
     title: 'Госпитализация из регионов и стран СНГ в клиники Москвы',
     description: 'Организация госпитализации пациентов из регионов России и стран СНГ. Подбор клиники, оформление документов, медицинское сопровождение.',
     keywords: ['платная госпитализация из регионов'],
@@ -23,9 +23,12 @@ export const metadata = {
         title: 'Медицинская Сервисная Компания. Госпитализация в Москву из регионов — быстро, легально, платно. 8 (499) 719-81-00, 24/7',
         description: 'Поможем пройти лечение и диагностику в лучших клиниках Москвы и федеральных медцентрах. Принимаем без ОМС, с сопровождением и оформлением документов.',
         images: ['/images/banner2.webp'],
-        url: 'https://region.mskdoctor.ru/',
+        url: 'https://msk-region.vercel.app/',
         type: 'website',
         locale: 'ru_RU',
+    },
+    alternates: {
+        canonical: 'https://msk-region.vercel.app',
     }
 };
 

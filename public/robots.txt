@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://region.mskdoctor.ru/sitemap.xml
+Sitemap: https://msk-region.vercel.app/sitemap.xml
